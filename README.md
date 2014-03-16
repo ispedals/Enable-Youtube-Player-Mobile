@@ -1,6 +1,8 @@
 # Enable Youtube Player Mobile
 
-Adds a site-specific override for Firefox for Android to spoof the Chrome useragent for m/youtube.com. This allows videos to play in the browser instead of playing in the native app.
+[AMO Link](https://addons.mozilla.org/en-US/firefox/addon/enable-youtube-player-mobile/)
+
+Adds a site-specific override for Firefox for Android to spoof the Chrome useragent for m.youtube.com. This allows videos to play in the browser instead of playing in the native app.
 Site-specific override support was only added in Firefox for Android 22
 
 ##Changelog
