@@ -1,10 +1,10 @@
 {
-  "name": "youtube-enhanceplus",
-  "fullName": "Youtube-EnhancePlus",
+  "name": "enable-youtube-player-mobile",
+  "fullName": "Enable Youtube Player Mobile",
   "id": "jid1-zyYS8idkRvbISA",
-  "description": "Allows Playing Youtube videos in the browser",
+  "description": "Enables the Youtube player for Firefox for Android",
   "author": "ispedals",
-  "homepage": "https://github.com/ispedals/Youtube-Enhance-Plus",
-  "license": "Public Domain",
-  "version": "0.2"
+  "homepage": "https://github.com/ispedals/Enable-Youtube-Player-Mobile",
+  "license": "MIT",
+  "version": "0.3"
 }
