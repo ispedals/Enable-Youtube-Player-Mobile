@@ -1,4 +1,4 @@
-Copyright 2013 ispedals
+Copyright 2014 ispedals
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
