@@ -7,6 +7,12 @@ Site-specific override support was only added in Firefox for Android 22
 
 ##Changelog
 
+* 0.4
+Fix install.rdf to state that the addon is only compatible with Firefox for Android 22+
+
+	`cfx xpi --force-mobile` defaults to enabling compatability with both Firefox for Desktop and Firefox for Android.
+	Fixing this requires manually editing the generated install.rdf
+
 * 0.3
 Rename, relicence, and submit to AMO. Update useragent to Chrome 33 and Android 4.4
 
