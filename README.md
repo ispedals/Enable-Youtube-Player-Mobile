@@ -2,10 +2,16 @@
 
 [AMO Link](https://addons.mozilla.org/en-US/firefox/addon/enable-youtube-player-mobile/)
 
-Adds a site-specific override for Firefox for Android to spoof the Chrome useragent for m.youtube.com. This allows videos to play in the browser instead of playing in the native app.
-Site-specific override support was only added in Firefox for Android 22
+Adds a site-specific override for Firefox for Android to spoof the Chrome useragent for m.youtube.com and enables [MediaSource Extensions](https://developer.mozilla.org/en-US/docs/Web/API/MediaSource).
+This allows videos to play in the browser instead of playing in the native app. Site-specific override support was only added in Firefox for Android 22
+and MediaSource Extensions were added in Firefox for Android 25.
 
 ##Changelog
+
+* 0.5
+Fix for site change
+
+	Update useragent to Chrome 34 and enable mediasource extensions. This increases the minimum version to Firefox for Android 25. 
 
 * 0.4
 Fix install.rdf to state that the addon is only compatible with Firefox for Android 22+
