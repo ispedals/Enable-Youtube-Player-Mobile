@@ -6,7 +6,33 @@ Adds a site-specific override for Firefox for Android to spoof the Chrome userag
 This allows videos to play in the browser instead of playing in the native app. Site-specific override support was only added in Firefox for Android 22
 and MediaSource Extensions were added in Firefox for Android 25.
 
+##Building
+* Run `jpm xpi`
+* In the resulting XPI, open it and edit `install.rdf`
+* Replace the `<em:targetApplication>` block with:
+
+```
+<!-- Firefox for Android-->
+<em:targetApplication>
+<Description>
+	<em:id>{aa3c5121-dab2-40e2-81ca-7ea25febc110}</em:id>
+	<em:minVersion>38.0a1</em:minVersion>
+	<em:maxVersion>40.0</em:maxVersion>
+  </Description>
+</em:targetApplication>
+```
+
+changing `<em:maxVersion>` as needed
+
 ##Changelog
+
+*1.0.0
+Bugfix and enable building with JPM
+
+	`media.mediasource.enabled` was not being properly reset on disable/uninstall
+	Switch to semver versioning
+	JPM compatability increases the minimum version to Firefox for Android 38
+
 
 * 0.5
 Fix for site change
