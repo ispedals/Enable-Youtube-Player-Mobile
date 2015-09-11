@@ -1,10 +1,10 @@
 {
   "name": "enable-youtube-player-mobile",
-  "fullName": "Enable Youtube Player Mobile",
-  "id": "jid1-zyYS8idkRvbISA",
+  "title": "Enable Youtube Player Mobile",
+  "id": "jid1-zyYS8idkRvbISA@jetpack",
   "description": "Enables the Youtube player for Firefox for Android",
   "author": "ispedals",
   "homepage": "https://github.com/ispedals/Enable-Youtube-Player-Mobile",
   "license": "MIT",
-  "version": "0.5"
+  "version": "1.0.0"
 }

@@ -1,0 +1,4 @@
+*.xpi
+screenshot.png
+.jpmignore
+.git/
